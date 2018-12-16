@@ -1,0 +1,15 @@
+#JSGF V1;
+
+grammar voxrein;
+
+public <greet> = ( sleep | who are you | wake up | kill yourself);
+
+public <command> = ( open | Close) (device manager| games | music |command line |blue tooth file transfer| networks | calculator |micro soft excel| m s excel|m s word| micro soft word| word pad | m s power point| micro soft power point | m s access | micro soft access| note pad | micro soft paint |task manager| Browser | control panel | media player );
+
+public <action> = ( stop music );
+
+public <net> = (site) (face book | go girl | g mail | week e p d ya | tweet er |you tube);
+
+public <time>=( whats time now| whats date | play music|hide default commands  |show default commands |text to speech);
+
+public <wireless> =(why fi on|why fi off);
